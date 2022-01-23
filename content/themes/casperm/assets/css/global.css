@@ -464,3 +464,20 @@ h6 {
     margin: 1.5em 0 0.5em 0;
     font-size: 1.8rem;
 }
+
+.scroll-top-arrow, .scroll-top-arrow:focus {
+    color: #fff;
+    background: #878787;
+    line-height: 28px;
+    display: none;
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    text-decoration: none;
+    bottom: 70px;
+    z-index: 10006;
+    border-radius: 100%;
+}
