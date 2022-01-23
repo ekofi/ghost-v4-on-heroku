@@ -75,6 +75,16 @@
             <nav class="site-footer-nav">
                 {{navigation type="secondary"}}
             </nav>
+            <br />
+            <div><h3>Contact Us</h3>
+            Applying at FAANG or an exciting startup? 💻
+            <br />
+            We'll tell you what questions to expect, how to answer them, and provide you with feedback you can apply immediately.
+            <br/>
+            Email: <a href="mailto:hello@techinterview.coach" target="_blank" rel="noopener">hello@techinterview.coach</a>
+            <br />
+            Find us on <a href="https://wa.me/447575171999" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
             <div><a href="https://ghost.org/" target="_blank" rel="noopener">Powered by Ghost</a></div>
         </div>
     </footer>
@@ -130,6 +140,11 @@ $(document).ready(function () {
     position: relative;
     width: 100%;
     -webkit-font-smoothing: antialiased;
+  }
+  @media only screen and (max-width: 600px) {
+   .eapp-whatsapp-chat-root-layout-component {
+    display: none !important
+   }
   }
   .icon-very-small {
     font-size: 16px;
